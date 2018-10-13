@@ -2,11 +2,6 @@
 
 
 roadmap
-- scheda for database
-- custom back-end pages with configurations
-- 3 differents submodules (taxonomy, node and users)
+- custom back-end pages with configurations (done)
+- 3 differents submodules (taxonomy, node and users) (done)
 - list of taxonomy vocabulary and nodes
-
-
-future implementations
-- no index on register, login and account page
