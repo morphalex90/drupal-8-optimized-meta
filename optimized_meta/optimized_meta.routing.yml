@@ -1,5 +1,5 @@
 optimized_meta.settings:
-  path: '/admin/optimized_meta/config'
+  path: '/admin/config/search/optimized_meta/config'
   defaults:
     _form: '\Drupal\optimized_meta\Form\SettingsForm'
     _title: 'Optimized Meta settings'

@@ -30,18 +30,35 @@ class SettingsForm extends ConfigFormBase {
   public function buildForm(array $form, FormStateInterface $form_state) {
     $config = $this->config('optimized_meta.settings');
 
-    ################################################################################ Facebook
-    $form['facebook'] = array(
+    $form['page_no_index'] = array(
       '#type' => 'details',
-      '#title' => $this->t('Facebook'),
+      '#title' => $this->t('Enable meta no-index on the following pages'),
       '#open' => TRUE
     );
 
-    $form['facebook']['facebook_app_id'] = array(
-      '#type' => 'textfield',
-      '#title' => $this->t('App ID'),
-      '#default_value' => $config->get('facebook_app_id')
-    );  
+    $form['page_no_index']['no_index_user'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->t('User'),
+      '#default_value' => $config->get('no_index_user')
+    );
+	
+	$form['page_no_index']['no_index_login'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->t('User login'),
+      '#default_value' => $config->get('no_index_login')
+    );
+	
+	$form['page_no_index']['no_index_register'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->t('User register'),
+      '#default_value' => $config->get('no_index_register')
+    );
+	
+	$form['page_no_index']['no_index_password'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->t('User password'),
+      '#default_value' => $config->get('no_index_register')
+    );
 
     /*$form['facebook']['facebook_logo'] = [
      '#type' => 'managed_file',
