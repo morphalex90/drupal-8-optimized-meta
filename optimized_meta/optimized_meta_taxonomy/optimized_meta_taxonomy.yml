@@ -1,0 +1,8 @@
+name: Optimized Meta - Taxonomy
+type: module
+description: A better meta optimization for Taxonomies
+core: 8.x
+package: morphalex90
+dependencies:
+  - token
+

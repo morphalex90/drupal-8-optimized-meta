@@ -1,0 +1,8 @@
+name: Optimized Meta
+type: module
+description: A better meta optimization
+core: 8.x
+package: morphalex90
+dependencies:
+  - token
+
