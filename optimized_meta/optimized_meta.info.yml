@@ -3,6 +3,7 @@ type: module
 description: A better meta optimization (basic functions)
 core: 8.x
 package: morphalex90
+configure: optimized_meta.settings
 dependencies:
   - token
 
