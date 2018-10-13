@@ -35,29 +35,23 @@ class SettingsForm extends ConfigFormBase {
       '#title' => $this->t('Enable meta no-index on the following pages'),
       '#open' => TRUE
     );
-
-    $form['page_no_index']['no_index_user'] = array(
-      '#type' => 'checkbox',
-      '#title' => $this->t('User'),
-      '#default_value' => $config->get('no_index_user')
-    );
 	
 	$form['page_no_index']['no_index_login'] = array(
       '#type' => 'checkbox',
-      '#title' => $this->t('User login'),
+      '#title' => $this->t('/user/login'),
       '#default_value' => $config->get('no_index_login')
     );
 	
 	$form['page_no_index']['no_index_register'] = array(
       '#type' => 'checkbox',
-      '#title' => $this->t('User register'),
+      '#title' => $this->t('/user/register'),
       '#default_value' => $config->get('no_index_register')
     );
 	
 	$form['page_no_index']['no_index_password'] = array(
       '#type' => 'checkbox',
-      '#title' => $this->t('User password'),
-      '#default_value' => $config->get('no_index_register')
+      '#title' => $this->t('/user/password'),
+      '#default_value' => $config->get('no_index_password')
     );
 
     /*$form['facebook']['facebook_logo'] = [
@@ -84,7 +78,9 @@ class SettingsForm extends ConfigFormBase {
     // Retrieve the configuration
     $this->config('optimized_meta.settings')
       // Set the submitted configuration setting
-      ->set('facebook_app_id', $form_state->getValue('facebook_app_id'))
+      ->set('no_index_login', $form_state->getValue('no_index_login'))
+      ->set('no_index_register', $form_state->getValue('no_index_register'))
+      ->set('no_index_password', $form_state->getValue('no_index_password'))
       
       ->save();
 
