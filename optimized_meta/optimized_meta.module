@@ -58,6 +58,6 @@ function optimized_meta_preprocess_html(&$variables){
 		$variables['page']['#attached']['html_head'][] = [$noindex, 'noindex'];
 	
 
-	#drupal_set_message('frontpage: '.getSystemConfig('page.front')); // keep for later!
+	#drupal_set_message('frontpage: '.getSystemConfig('page.front'));
 
 }
