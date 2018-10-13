@@ -53,6 +53,18 @@ class SettingsForm extends ConfigFormBase {
       '#title' => $this->t('/user/password'),
       '#default_value' => $config->get('no_index_password')
     );
+	
+	$form['page_no_index']['no_index_403'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->t('403 page'),
+      '#default_value' => $config->get('no_index_403')
+    );
+	
+	$form['page_no_index']['no_index_404'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->t('404 page'),
+      '#default_value' => $config->get('no_index_404')
+    );
 
     /*$form['facebook']['facebook_logo'] = [
      '#type' => 'managed_file',
@@ -81,6 +93,8 @@ class SettingsForm extends ConfigFormBase {
       ->set('no_index_login', $form_state->getValue('no_index_login'))
       ->set('no_index_register', $form_state->getValue('no_index_register'))
       ->set('no_index_password', $form_state->getValue('no_index_password'))
+      ->set('no_index_403', $form_state->getValue('no_index_403'))
+      ->set('no_index_404', $form_state->getValue('no_index_404'))
       
       ->save();
 
