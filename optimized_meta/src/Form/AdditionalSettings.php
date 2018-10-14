@@ -7,7 +7,7 @@ use Drupal\Core\Form\FormStateInterface;
 /**
  * Configure example settings for this site.
  */
-class SettingsForm extends ConfigFormBase {
+class AdditionalSettings extends ConfigFormBase {
   /** 
    * {@inheritdoc}
    */
