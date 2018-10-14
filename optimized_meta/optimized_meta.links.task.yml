@@ -1,8 +1,8 @@
-optimized_meta.admin: # The first plugin ID
+optimized_meta.admin: # Options
   route_name: optimized_meta.collection  
   title: 'Options'
   base_route: optimized_meta.collection
-optimized_meta.settings2: # The second plugin ID
+optimized_meta.settings2: # Additional settings
   route_name: optimized_meta.settings
   title: 'Additional settings'
   base_route: optimized_meta.collection

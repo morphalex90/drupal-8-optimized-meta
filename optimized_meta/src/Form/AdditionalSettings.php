@@ -12,7 +12,7 @@ class AdditionalSettings extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function getFormId() {
-    return 'optimized_meta_admin_settings';
+    return 'optimized_meta_settings';
   }
 
   /** 
