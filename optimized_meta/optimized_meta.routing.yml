@@ -1,3 +1,10 @@
+optimized_meta.collection:
+  path: '/admin/config/search/optimized_meta'
+  defaults:
+    _form: '\Drupal\optimized_meta\Form\SettingsForm'
+    _title: 'Optimized Meta settings'
+  requirements:
+    _permission: 'administer site configuration'
 optimized_meta.settings:
   path: '/admin/config/search/optimized_meta/config'
   defaults:

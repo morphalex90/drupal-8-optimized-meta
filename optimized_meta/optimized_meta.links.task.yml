@@ -1,0 +1,9 @@
+optimized_meta.admin: # The first plugin ID
+  route_name: optimized_meta.collection  
+  title: 'Options'
+  base_route: optimized_meta.collection
+optimized_meta.settings2: # The second plugin ID
+  route_name: optimized_meta.settings
+  title: 'Additional settings'
+  base_route: optimized_meta.collection
+  weight: 100
