@@ -1,4 +1,4 @@
-<h1>Drupal 8 - Optimized Meta</h1>
+<h1>Drupal 8 - Optimized Meta (work in progress)</h1>
 <hp>I always used Metatag module and I find it really useful but lots of times I needed to put some logic between what field use in what case so I've started creating my personal version</p>
 <p>Features</p>
 <ul>
