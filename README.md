@@ -13,6 +13,6 @@
 <p>Roadmap</p>
 <ul>
   <li>custom back-end pages with configurations (done)</li>
-  <li>form for no index pages and function on order to make if work (done)</li>
+  <li>form for no index pages and function in order to make if work (done)</li>
   <li>list of entity types (in progress...)</li>
 </ul>
