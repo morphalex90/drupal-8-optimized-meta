@@ -2,7 +2,7 @@
 <hp>I always used Metatag module and I find it really useful but lots of times I needed to put some logic between what field use in what case so I've started creating my personal version</p>
 <p>Features</p>
 <ul>
-  <li>as for Metatag, this module will allow you to configuring meta tags for all the entity types</li>
+  <li>as for Metatag, this module will allows you to configuring meta tags for all the entity types</li>
   <li>no index for users pages (login, register, password)</li>
   <li>you can provide, directly from back-office, a list of possible field to use in case the first one will be empy</li>
   <li>preview of the meta by inserting the url you want to check</li>
