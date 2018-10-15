@@ -6,7 +6,7 @@
   <li>no index for users pages (login, register, password)</li>
   <li>you can provide, directly from back-office, a list of possible field to use in case the first one will be empy</li>
   <li>preview of the meta by inserting the url you want to check</li>
-  <li>list of inherited tags (if you are editing a custom node you will see the general node configuration</li>
+  <li>list of inherited tags (if you are editing a custom node you will see the general node configuration)</li>
 </ul>
 
 
